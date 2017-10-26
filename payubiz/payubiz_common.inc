@@ -1,10 +1,7 @@
 <?php
 /**
- * common.php
- *
- * Copyright (c) 2011-2015 PayU india
- * @author     Ayush Mittal
- * @copyright  2011-2015 PayU India
+ * @author     Payubiz
+ * @copyright  2011-2017 PayU India
  * @license    http://www.opensource.org/licenses/lgpl-license.php LGPL
  */
 //// Create user agent string
