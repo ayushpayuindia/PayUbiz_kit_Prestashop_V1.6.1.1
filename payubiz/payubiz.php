@@ -2,14 +2,9 @@
 /**
  * payubiz.php
  *
- * Copyright (c) 2015 PayU india
- * 
- * 
- * @author     Ayush Mittal
+ * @author     Payubiz
  * @version    1.0
- * @date       30/10/2015
- * 
- * @copyright  2015 PayU india
+ * @copyright  2011-2017 PayU india
  * @license    http://www.opensource.org/licenses/lgpl-license.php LGPL
  * @link       https://www.payubiz.in/index
  */
