@@ -504,15 +504,9 @@ class PayUbiz extends PaymentModule
         $data = array();
 
         $currency = $this->getCurrency((int)$cart->id_currency);
-        // if ($cart->id_currency != $currency->id)
-        // {
-        //     // If PayUbiz currency differs from local currency will check by ayush
-        //     $cart->id_currency = (int)$currency->id;
-        //     $cookie->id_currency = (int)$cart->id_currency;
-        //     $cart->update();
-        // }
+     
 
-         $deloveryAddress = new Address((int)($cart->id_address_delivery));       
+        $deloveryAddress = new Address((int)($cart->id_address_delivery));       
          $Zipcode      =  $deloveryAddress->postcode;
 
          if($deloveryAddress->phone)
